@@ -14,6 +14,7 @@ def find_mismatch(text):
     for i, next in enumerate(text):
         if next in "([{":
             # Process opening bracket, write your code here
+
             pass
 
         if next in ")]}":
@@ -24,6 +25,7 @@ def find_mismatch(text):
 def main():
     text = input()
     mismatch = find_mismatch(text)
+    
     # Printing answer, write your code here
 
 
