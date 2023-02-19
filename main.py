@@ -36,4 +36,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    mode = input()
+    if mode == "I":
+        main()
